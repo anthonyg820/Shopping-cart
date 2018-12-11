@@ -1,0 +1,65 @@
+*{margin: 0px;padding: 0px;}
+  
+header, nav, section, article, footer,aside, hgroup{display: block;}
+
+#ALLCONTAINER{width: 100%; font-family: sans-serif; float: left; padding-bottom: 50px;}
+
+
+#mainHeader{background: #3D5266; color: #ffffff; text-align: center; padding: 60px;}
+
+.styledUnderline{width: 100%; margin-bottom: 60px;}
+.styledUnderlineInner{width: 80px; height: 4px; margin: auto; background: #444444; float: left;}
+
+#noItemsInCartMsg{font-size: 26px; width: 80%; padding: 60px 10%; float: left; text-align: center; color: #444444; display: none;}
+
+#content{width: 80%; margin: auto; color: #444444;}
+
+.subheader{padding: 20px 0;}
+
+#mainToolbar{width: 100%; padding: 10px 0; float: left;}
+
+#emptyCartButton{padding: 20px; float: right; background: #1865f2; color: #ffffff; text-decoration: none; cursor: pointer;}
+#emptyCartButton:hover{background: #52a0e5;}
+
+
+#cartHolder{width: 100%; margin: 0px auto; float: left;}
+table{width: 100%;}
+#tableHeaders{background: #444444; color: #ffffff;}
+td{width: 16.5%; border: 1px solid #c9c9c9; padding: 10px;}
+
+.deleteRowForm{display: block;}
+.deleteRowForm input[type*="submit"]{background: url("http://localhost/Shopping Cart/Product Images/trash_darkgray.svg") no-repeat center; 
+		background-size: 40px 40px; display: block; width: 50px; height: 50px; margin: auto; border: 0; cursor: pointer;}
+.deleteRowForm input[type*="submit"]:hover{background: url("http://localhost/Shopping Cart/Product Images/trash_red.svg") no-repeat center; 
+		background-size: 40px 40px;} 
+		
+.deleteRowForm input[type*="text"]{display: none;}
+		
+		
+.itemIMG{width: 100px; height: 100px; margin: auto; display: block;}
+
+
+
+.totalRow{background: #e9e9e9; font-weight: bold;}
+
+
+
+
+#pageOverlay{width: 100%; height: 100%; position: fixed; top: 0; left: 0; background: #000000; opacity: 0.5; display: none;}
+
+#popupBox{width: 400px; height: 200px; position: fixed; top: -200px; left: 50%; margin-left: -200px; margin-top: -100px; background: #e9e9e9;
+		font-family: sans-serif; border: 2px solid #c9c9c9; transition: 0.3s;}
+		
+#popupBox h4{width: 85%; padding: 0 7.5%; text-align: center; font-size: 26px; margin: 14px 0; color: #444444;}
+
+#yesConfirm, #noConfirm{width: 100px; padding: 10px 0; margin: 6px auto; display: block; text-align: center; cursor: pointer; text-decoration: none;
+		color: #ffffff; }
+
+#yesConfirm{background: #1865f2;}
+#yesConfirm:hover{background: #52a0e5;}
+
+#noConfirm{background: #444444;}
+#noConfirm:hover{background: #777777;}
+
+
+

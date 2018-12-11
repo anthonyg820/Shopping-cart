@@ -1,0 +1,32 @@
+*{margin: 0px;padding: 0px;}
+  
+header, nav, section, article, footer,aside, hgroup{display: block;}
+
+#ALLCONTAINER{width: 100%; font-family: sans-serif; float: left;}
+
+
+#mainHeader{background: #3D5266; color: #ffffff; text-align: center; padding: 60px;}
+
+.styledUnderline{width: 100%; margin-bottom: 60px;}
+.styledUnderlineInner{width: 80px; height: 4px; margin: auto; background: #444444; float: left;}
+
+#content{width: 80%; margin: auto; color: #444444;}
+
+.subheader{padding: 20px 0;}
+
+#mainToolbar{width: 100%; padding: 10px 0; float: left;}
+
+#addNewProductButton{padding: 20px; float: right; background: #1865f2; color: #ffffff; text-decoration: none;}
+#addNewProductButton:hover{background: #52a0e5;}
+
+
+#currentProductsHolder{width: 100%; margin: 0px auto; float: left;}
+
+.product{display: inline-block; width: 31%; padding: 10px 0 10px 0; margin: 10px 1%; text-align: center; color: #444444;}
+
+.product img{width: 100px; height: 100px; margin: auto; display: block;}
+
+.product p{padding-bottom: 20px;}
+
+.product h4{font-size: 26px; padding-bottom: 20px;}
+

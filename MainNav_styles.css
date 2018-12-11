@@ -1,0 +1,28 @@
+
+/*This file contains all CSS style for the desktop navigation (referred to as 'dt')*/
+
+
+/*DESKTOP NAVIGATION STYLES*/
+#dtNavBar{width: 100%; position: relative; top: 0; padding-top: 2px; padding-bottom: 2px; float: left; background: #1865f2; float: left;
+		font-family: sans-serif;}
+
+#dtNavContent{max-width: 90%; margin-right: auto; margin-left: auto; list-style: none;}
+
+#leftOfDTHeader, #rightOfDTHeader{float: left; width: 50%;}
+
+
+#dtNavLogoHolder{float: left; width: 240px; height: 75px; font-size: 36px; line-height: 72px; text-decoration: none; color: #ffffff;
+		font-family: 'Saira Condensed';}
+
+#dtNavLogo{float: left; width: 200px; height: 75px;}
+
+	
+		
+
+#cartButton{background: #14bf96; float: right; padding: 14px 30px 14px 30px; margin-top: 14px; margin-left: 26px; color: #ffffff; text-decoration: none;}
+#cartButton:hover{background: #16daac;}
+
+.dtNormalNavLink{float: right; padding: 16px 0; margin: 14px 26px 0 26px; color: #ffffff; text-decoration: none;}
+.dtNormalNavLink:hover{color: #c9c9c9;}
+
+
