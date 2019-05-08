@@ -8,6 +8,7 @@ The front end was developed using HTML, CSS and JavaScript.
 The back end was developed using PHP and MySQL databases.
 
 This simulator uses 2 databases:
+
 	1) Products
 		-Stores all product information, including:
 			a) Unique Identifier (referred to as PID)
@@ -21,6 +22,7 @@ This simulator uses 2 databases:
 			b) The quantity of the users chosen products
 
 This simulator has 3 primary pages:
+
 	1) ProductListings.php
 		-This page is where users can see all available products and add a 
 		specific quantity of an item to their shopping cart.
@@ -37,6 +39,7 @@ This simulator has 3 primary pages:
 		cart by clicking on the "Empty Cart" button
 
 POSSIBLE FUTURE REVISIONS
+
 	1) Add further form validation against unwanted inputs.
 	2) Allow users to alter item quantities directly from the shopping cart.
 	3) Add totals including sales tax rates
